@@ -1,0 +1,91 @@
+Result:
+
+Enter the number of destinations for which you want different hotel information
+4
+Enter the name of destination number 1 :
+Delhi
+Enter the name of hotel 1
+Taj Mahal
+Enter the price of hotel Taj Mahal
+5346
+Enter the number of days you can stay in Taj Mahal
+4
+Enter the name of hotel 2
+Duplex
+Enter the price of hotel Duplex
+3246
+Enter the number of days you can stay in Duplex
+5
+Enter the name of hotel 3
+JW Marriott
+Enter the price of hotel JW Marriott
+7654
+Enter the number of days you can stay in JW Marriott
+8
+Enter the name of destination number 2 :
+Mumbai
+Enter the name of hotel 1
+Raj Palace
+Enter the price of hotel Raj Palace
+2345
+Enter the number of days you can stay in Raj Palace
+2
+Enter the name of hotel 2
+Taj Mahal
+Enter the price of hotel Taj Mahal
+5467
+Enter the number of days you can stay in Taj Mahal
+5
+Enter the name of hotel 3
+Four Seasons
+Enter the price of hotel Four Seasons
+9875
+Enter the number of days you can stay in Four Seasons
+7
+Enter the name of destination number 3 :
+Hyderabad
+Enter the name of hotel 1
+Radison
+Enter the price of hotel Radison
+3453
+Enter the number of days you can stay in Radison
+2
+Enter the name of hotel 2
+Novotel
+Enter the price of hotel Novotel
+7654
+Enter the number of days you can stay in Novotel
+6
+Enter the name of hotel 3
+Lemon Tree
+Enter the price of hotel Lemon Tree
+9876
+Enter the number of days you can stay in Lemon Tree
+8
+Enter the name of destination number 4 :
+Kolkata
+Enter the name of hotel 1
+Pride Hotel
+Enter the price of hotel Pride Hotel
+7658
+Enter the number of days you can stay in Pride Hotel
+2
+Enter the name of hotel 2
+Oberoi
+Enter the price of hotel Oberoi
+6477
+Enter the number of days you can stay in Oberoi
+5
+Enter the name of hotel 3
+Lalit
+Enter the price of hotel Lalit
+9876
+Enter the number of days you can stay in Lalit
+4
+Destination [destination=[Delhi, Mumbai, Hyderabad, Kolkata]]
+Please choose one destination from above
+Kolkata
+Please find the best hotel package plans in Kolkata below:
+Hotel Pride Hotel offers a stay of 2 days for Rs 7658 only!!
+Hotel Oberoi offers a stay of 5 days for Rs 6477 only!!
+Hotel Lalit offers a stay of 4 days for Rs 9876 only!!
