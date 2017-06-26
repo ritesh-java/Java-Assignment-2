@@ -1,0 +1,51 @@
+1) Try implementing Two interfaces with same method name & signature and same return type?
+Ans: This is possible and the same method with same return type declared in both interfaces will have have common definition in the class 
+implementing both interfaces.
+
+2) Try implementing Two interfaces with same method name with different return type ?
+Ans: This is not possible. There will be an ambiguity on which method to call.
+ 
+3) Try adding a static block and instance block inside interface ?
+Ans: Interface is mainly consist of declared static methods and static variables but we cannot use static or instance block inside the interface
+to initlize the variables. 
+
+4) Add a static block and instance block inside abstract class and identify the sequence of execution?
+Ans: We cannot directly execute static and instance block of abstract class as this class can't be instiantiated. We can only execute them 
+through instantiation of child class which extends abstract class. Order of execution will be the static block first and then instance block. 
+Static block is executed only when the class is loaded but the instance block is executed every time the object is created. 
+
+5) Create a class static block, instance block and default constructor. create object for the same class and let me know the sequence of execution ?
+Ans: In this case, static block followed by instance block followed by default constructor is executed. 
+
+6) Create object for a class which implements two interfaces and an abstract class and verify the visibility of all the methods(both dummy and concrete).
+Ans: After implementing the question. I observed few points:
+(I) We cannot define private or protected methods inside Interface. 
+(II) We cannot define private abstract method inside abstract class but we can define protected abstract methods inside abstract class. 
+(III) We can define private, protected and public non abstract methods inside abstract class.
+(IV) Abstract methods defined in abstract class and the methods inside Interface cannot be final. We can define non abstract methods in 
+     abstract class as final but we cannot override them inside the child class. 
+(V) One needs to implement all methods defined in Interface and all abstract methods in the abstract class inside their child class.	 
+
+7) create a parent class ‘P’ and child classs ‘C’. P having methods variables and 2 methods. In child class override all variables and override only one method. create Class ‘C’ specific methods and variables as well.
+a) create a parent reference variable and assign child class. Verify scope of all parent and child member through parent reference variable.
+Ans: Following are the few observed points: 
+(I) Private methods in P class are not visible in C class. Private variables defined in P class can be accessed inside C class through public,
+    default or protected methods in P class.
+(II) final method defined in P class cannot be overridden inside C class.
+(III) We can directly access static variable without instantiating P class. We need to instantiate P class while accessing public, protected 
+      and default variables.	
+	  
+10) Can we override a construtors?
+Ans: No, this is not possible. 
+
+11) Cam we overload a construtor?
+Ans: Yes, we can overload constructor. 
+
+12)Is java follow pass-by-value or pass-by-reference ?
+Ans: Java supports pass by value, not pass by reference except when we pass the object of one class to the method of another class.  
+
+13)Apply all access specifiers to class, methods and variables. Identify by writing which ones not allowed and which ones allowed?
+Ans: Private methods and variables can only be accessed within the class by other methods. Default methods and variables can only be accessed within the same package anywhere. 
+Protected members can only be accessed within the package and outside the package within the class which is the subclass. 
+Public members can accessed within the package and outside the class by any class. Classes can be either public or they are default if no access modifier is declared. 
+However, Nested classes can be private, protected, default or public.
